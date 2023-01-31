@@ -100,12 +100,11 @@ const USER_CONFIG = {
       ],
     },
     {
-      name: '史蕾小宝宝',
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
       useTemplateId: 'BT8UDyjud71gg2TiLoAZVwoNHl8eQzD0n4sbd0djKFE',
       // 生日
       festivals:[
-            {"type":"生日","name":"宝宝","date":"07-16","year":"1993"}
+            {"type":"生日","name":"宝宝","date":"07-16","year":"1993"},
             {"type":"节日","name":"宝贝","date":"03-04","year":"1997"}
             // {"type":"生日","name":"birthday2_message","date":"03-04","year":"1997"}
       ],
