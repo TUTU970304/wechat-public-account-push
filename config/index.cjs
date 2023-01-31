@@ -81,7 +81,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'qIOsXBXXr7zQt6I2fvg8Ehbz-m4Wzvk1Hq9I37DvwEI',
+      useTemplateId: 'rCOSd2y9LR33lI1C6hXyQBGplV9EZoAvel-8eycI9Ss',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '07-16',
       // 我们在一起已经有xxxx天了的配置
@@ -120,14 +120,14 @@ const USER_CONFIG = {
         { keyword: 'notice'},
       ],
     },
-    {
-      name: '史蕾小宝宝的天气推送',
-      id: 'o--sv5sD9z6vHyniVseZokp9WAck',
-      useTemplateId: 'qIOsXBXXr7zQt6I2fvg8Ehbz-m4Wzvk1Hq9I37DvwEI',
-      province: '',
-      city: '',
-      weatherDateList: []     
-    },
+    // {
+    // name: '史蕾小宝宝的天气推送',
+    // id: 'o--sv5sD9z6vHyniVseZokp9WAck',
+    // useTemplateId: 'qIOsXBXXr7zQt6I2fvg8Ehbz-m4Wzvk1Hq9I37DvwEI',
+    // province: '',
+    // city: '',
+    // weatherDateList: []     
+    // },
   ],
     
 }
