@@ -49,7 +49,7 @@ const USER_CONFIG = {
 
     /** 生日消息和节日消息 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    birthdayMessage: false,
+    birthdayMessage: true,
 
     /** 学生课表 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
@@ -96,7 +96,7 @@ const USER_CONFIG = {
         // 预防感冒提醒
         { keyword: 'ganmao'},
         // 天气温馨语
-        { keyword: 'notice'},
+        { keyword: 'notice'}
       ],
     },
     {
@@ -129,13 +129,13 @@ const USER_CONFIG = {
         // 相见的日子
         { keyword: 'meet_day', date: '2022-07-16' },
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-15' },
+        { keyword: 'love_day', date: '2022-09-15' }
         // 结婚纪念日
-        // { keyword: 'marry_day', date: '2022-09-09' },
+        // { keyword: 'marry_day', date: '2022-09-09' }
       ],
       holidayttsDateList: [
         // 节假日
-        { keyword: 'holidaytts' },
+        { keyword: 'holidaytts' }
       ],
     },
     {
