@@ -71,7 +71,7 @@ const USER_CONFIG = {
       // 生日
       festivals:[
             {"type":"生日","name":"小笨蛋","date":"07-16","year":"1993"},
-            {"type":"节日","name":"大宝贝 的生日","date":"03-04","year":"1997"}
+            {"type":"生日","name":"大宝贝","date":"03-04","year":"1997"}
             // {"type":"生日","name":"birthday2_message","date":"03-04","year":"1997"}
       ],
       // 我们在一起已经有xxxx天了的配置
@@ -142,8 +142,6 @@ const USER_CONFIG = {
       horoscopeDate: '07-16',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
-      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: 'https://weibo.com/newlogin?tabtype=weibo&gid=102803&openLoginLayer=0&url=https%3A%2F%2Fweibo.com%2F',
       literaryDateList: [
         // 综合运势
         { keyword: 'comprehensive_horoscope' },
@@ -151,6 +149,18 @@ const USER_CONFIG = {
         { keyword: 'career_horoscope' },
         // 财富运势
         { keyword: 'wealth_horoscope' },
+      ],
+    },
+     {
+      id: 'o--sv5sD9z6vHyniVseZokp9WAck',
+      useTemplateId: 'GxuhEKXZ3-Iu-u25fgbWGD9ubI38afsHXyjyTxfjduw',
+      // 新历生日, 仅用作获取星座运势, 格式必须
+      horoscopeDate: '07-16',
+      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
+      horoscopeDateType: '今日',
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      openUrl: 'https://weibo.com/newlogin?tabtype=weibo&gid=102803&openLoginLayer=0&url=https%3A%2F%2Fweibo.com%2F',
+      literaryDateList: [
         // 健康运势
         { keyword: 'healthy_horoscope' }
       ],
