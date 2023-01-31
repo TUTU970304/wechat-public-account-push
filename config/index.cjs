@@ -32,7 +32,7 @@ const USER_CONFIG = {
       oneTalk: true,
 
       // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-      earthyLoveWords: false,
+      earthyLoveWords: true,
 
       // 朋友圈文案, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
       momentCopyrighting: false,
@@ -59,20 +59,6 @@ const USER_CONFIG = {
   /** 是否给文字设置多彩颜色, 和emoji不兼容 */
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
   IS_SHOW_COLOR: false,
-  
-  /** 每日一言 */
-  // 每日一言的内容类型
-  // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: '',
-  
-  PROVINCE: '浙江',
-  CITY: '宁波',
-  // 新历生日, 仅用作获取星座运势, 格式必须
-  horoscopeDate: '07-16',
-  // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
-  horoscopeDateType: '今日',
-  // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-  openUrl: 'https://wangxinleo.cn',
 
   USERS: [
     {
@@ -82,17 +68,10 @@ const USER_CONFIG = {
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'rCOSd2y9LR33lI1C6hXyQBGplV9EZoAvel-8eycI9Ss',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '07-16',
-      // 我们在一起已经有xxxx天了的配置
-      customizedDateList: [
-        // 相见的日子
-        { keyword: 'love_day', date: '2022-07-16' },
-        // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-15' },
-        // 结婚纪念日
-        // { keyword: 'marry_day', date: '2022-09-09' },
-      ],
+      
+      PROVINCE: '浙江',
+      CITY: '宁波',
+ 
       weatherDateList: [
         // 天气
         { keyword: 'weather' },
@@ -120,14 +99,78 @@ const USER_CONFIG = {
         { keyword: 'notice'},
       ],
     },
-    // {
-    // name: '史蕾小宝宝的天气推送',
-    // id: 'o--sv5sD9z6vHyniVseZokp9WAck',
-    // useTemplateId: 'qIOsXBXXr7zQt6I2fvg8Ehbz-m4Wzvk1Hq9I37DvwEI',
-    // province: '',
-    // city: '',
-    // weatherDateList: []     
-    // },
+    {
+      name: '史蕾小宝宝',
+      id: 'o--sv5sD9z6vHyniVseZokp9WAck',
+      useTemplateId: 'xadiIAU6TkHT0T8OcEl3dzpdTeeITl2IRG9Fh46AM3U',
+      // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        //{
+        //  type: '*生日', name: '老婆', year: '1996', date: '09-09',
+        //},
+        //{
+        //  type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
+        //},
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '宝宝', year: '1993', date: '07-16',
+        },
+        {
+          type: '生日', name: '宝贝', year: '1997', date: '03-04',
+        }
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 宝宝生日
+        { keyword: 'birthday1_day', date: '1993-07-16' },
+        // 宝贝生日
+        { keyword: 'birthday2_day', date: '1997-03-04' },
+        // 相见的日子
+        { keyword: 'meet_day', date: '2022-07-16' },
+        // 在一起的日子
+        { keyword: 'love_day', date: '2022-09-15' },
+        // 结婚纪念日
+        // { keyword: 'marry_day', date: '2022-09-09' },
+      ],
+      holidayttsDateList: [
+        // 节假日
+        { keyword: 'holidaytts' },
+      ],
+    },
+    {
+      name: '史蕾小宝宝',
+      id: 'o--sv5sD9z6vHyniVseZokp9WAck',
+      useTemplateId: '2UW2BPkMDTb-R2d5DgOY_-VicqGnPNJbwXDCHfPE208',
+      /** 每日一言 */
+      // 每日一言的内容类型
+      // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
+      LITERARY_PREFERENCE: '',
+      // 新历生日, 仅用作获取星座运势, 格式必须
+      horoscopeDate: '07-16',
+      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
+      horoscopeDateType: '今日',
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      openUrl: 'https://weibo.com/newlogin?tabtype=weibo&gid=102803&openLoginLayer=0&url=https%3A%2F%2Fweibo.com%2F',
+      literaryDateList: [
+        // 综合运势
+        { keyword: 'comprehensive_horoscope' },
+        // 事业学业
+        { keyword: 'career_horoscope' },
+        // 财富运势
+        { keyword: 'wealth_horoscope' },
+        // 健康运势
+        { keyword: 'healthy_horoscope' }
+      ],
+      dayDateList: [
+        // 每日一句
+        { keyword: 'note_ch' },
+        // 每日一言
+        { keyword: 'one_talk' },
+        // 土味情话(彩虹屁)
+        { keyword: 'earthy_love_words' }
+      ],
+    },
   ],
     
 }
