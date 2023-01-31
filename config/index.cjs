@@ -102,45 +102,6 @@ const USER_CONFIG = {
     {
       name: '史蕾小宝宝',
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
-      useTemplateId: '9bw14ekV4ct75VxT0uQt8gpUUz0un-XG9UhLY39Si4U',
-      // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
-      festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        //{
-        //  type: '*生日', name: '老婆', year: '1996', date: '09-09',
-        //},
-        //{
-        //  type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
-        //},
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '宝宝', year: '1993', date: '07-16',
-        },
-        {
-        //  type: '生日', name: '宝贝', year: '1997', date: '03-04',
-        }
-      ],
-      // 我们在一起已经有xxxx天了的配置
-      customizedDateList: [
-        // 宝宝生日
-        { keyword: 'birthday_message', date: '1993-07-16' },
-        // 宝贝生日
-        // { keyword: 'birthday2_day', date: '1997-03-04' },
-        // 相见的日子
-        { keyword: 'meet_day', date: '2022-07-16' },
-        // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-15' }
-        // 结婚纪念日
-        // { keyword: 'marry_day', date: '2022-09-09' }
-      ],
-      holidayttsDateList: [
-        // 节假日
-        { keyword: 'holidaytts' }
-      ],
-    },
-    {
-      name: '史蕾小宝宝',
-      id: 'o--sv5sD9z6vHyniVseZokp9WAck',
       useTemplateId: 'tu5_O2Mrz29qoQGVwy3ejw4x5jeczVcNR_nemEYQHzM',
       /** 每日一言 */
       // 每日一言的内容类型
