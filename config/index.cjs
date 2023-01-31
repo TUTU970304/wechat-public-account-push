@@ -67,11 +67,11 @@ const USER_CONFIG = {
     {
       name: '史蕾小宝宝',
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
-      useTemplateId: 'V7vr0WIzsugea9Ge9RsxFVsqxrgAfeHy5iMaUQciFOo',
+      useTemplateId: 'uIPUY6MKC7-OwuHfkvm62K9pxVYTGxRvRZuAvM1G2do',
       // 生日
       festivals:[
-        {"type":"生日","name":"大宝贝","date":"03-04","year":"1997"},
-        {"type":"生日","name":"小笨蛋","date":"07-16","year":"1993"}
+        {"type":"生日","name":"小笨蛋","date":"07-16","year":"1993"},
+        {"type":"生日","name":"大宝贝","date":"03-04","year":"1997"}       
         // {"type":"生日","name":"birthday2_message","date":"03-04","year":"1997"}
       ],
       // 我们在一起已经有xxxx天了的配置
@@ -137,7 +137,7 @@ const USER_CONFIG = {
     },
     {
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
-      useTemplateId: '2OaejLi_7eqSYxkxjQ7IuKIlXIY__o9t-t7hDcFVTjc',
+      useTemplateId: 'qb-BwnRoWCB-T8z4B4x5zT9abgx_m2j-cVLvahVoELw',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '07-16',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
