@@ -58,25 +58,10 @@ const USER_CONFIG = {
   
   /** 是否给文字设置多彩颜色, 和emoji不兼容 */
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  IS_SHOW_COLOR: false,
+  IS_SHOW_COLOR: true,
   
   PROVINCE: '浙江',
   CITY: '宁波',
-  
-  // 生日
-  festivals:[
-        {"type":"生日","name":"birthday_message","date":"07-16","year":"1993"},
-        {"type":"生日","name":"birthday2_message","date":"03-04","year":"1997"}
-  ],
-  // 我们在一起已经有xxxx天了的配置
-  customizedDateList: [
-    // 相见的日子
-    { keyword: 'meet_day', date: '2022-07-16' },
-    // 在一起的日子
-    { keyword: 'love_day', date: '2022-09-15' }
-    // 结婚纪念日
-    // { keyword: 'marry_day', date: '2022-09-09' }
-  ],
 
   USERS: [
     {
@@ -118,16 +103,29 @@ const USER_CONFIG = {
       name: '史蕾小宝宝',
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
       useTemplateId: '9bw14ekV4ct75VxT0uQt8gpUUz0un-XG9UhLY39Si4U',
-         
+      // 生日
+      festivals:[
+            {"type":"生日","name":"宝宝","date":"07-16","year":"1993"}
+            {"type":"节日","name":"宝贝","date":"03-04","year":"1997"}
+            // {"type":"生日","name":"birthday2_message","date":"03-04","year":"1997"}
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 相见的日子
+        { keyword: 'meet_day', date: '2022-07-16' },
+        // 在一起的日子
+        { keyword: 'love_day', date: '2022-09-15' }
+        // 结婚纪念日
+        // { keyword: 'marry_day', date: '2022-09-09' }
+      ],   
       holidayttsDateList: [
         // 节假日
         { keyword: 'holidaytts' }
       ],
     },
     {
-      name: '史蕾小宝宝',
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
-      useTemplateId: 'tu5_O2Mrz29qoQGVwy3ejw4x5jeczVcNR_nemEYQHzM',
+      useTemplateId: '-QQ1gCckD2TfvoQOdsUafUledqnMiQy3-p7wPf9GaEo',
       /** 每日一言 */
       // 每日一言的内容类型
       // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
