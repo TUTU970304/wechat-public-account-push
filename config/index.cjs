@@ -102,7 +102,7 @@ const USER_CONFIG = {
     {
       name: '史蕾小宝宝',
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
-      useTemplateId: '9bw14ekV4ct75VxT0uQt8gpUUz0un-XG9UhLY39Si4U',
+      useTemplateId: 'BT8UDyjud71gg2TiLoAZVwoNHl8eQzD0n4sbd0djKFE',
       // 生日
       festivals:[
             {"type":"生日","name":"宝宝","date":"07-16","year":"1993"}
