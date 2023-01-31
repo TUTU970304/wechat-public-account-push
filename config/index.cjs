@@ -101,7 +101,7 @@ const USER_CONFIG = {
     },
     {
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
-      useTemplateId: '4UceMuCihhrt17v1XNm93PxT_sjTmaEs37I5hcSH0y4',
+      useTemplateId: 'hjZOPp0naNR6fSjU86QUfx_Wph4dZzcmVtRJt9j0zz4',
       // 生日
       festivals:[
             {"type":"生日","name":"小笨蛋","date":"07-16","year":"1993"},
@@ -136,7 +136,7 @@ const USER_CONFIG = {
     },
     {
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
-      useTemplateId: 'oo__PIxHFKu0cAhs-L6SVG7x8dfNdkBlKRmNF_1IPJI',
+      useTemplateId: 'zNBRFpY69vbzsBBJ4XWjdhor6U7PQDyo1QtOczd5kCM',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '07-16',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
