@@ -67,7 +67,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'rCOSd2y9LR33lI1C6hXyQBGplV9EZoAvel-8eycI9Ss',
+      useTemplateId: 'tu541oB80v-sisBWplAzwF-zE9vPQrgujf7tAb_qWtw',
       
       PROVINCE: '浙江',
       CITY: '宁波',
@@ -102,7 +102,7 @@ const USER_CONFIG = {
     {
       name: '史蕾小宝宝',
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
-      useTemplateId: 'xadiIAU6TkHT0T8OcEl3dzpdTeeITl2IRG9Fh46AM3U',
+      useTemplateId: '9bw14ekV4ct75VxT0uQt8gpUUz0un-XG9UhLY39Si4U',
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -117,15 +117,15 @@ const USER_CONFIG = {
           type: '生日', name: '宝宝', year: '1993', date: '07-16',
         },
         {
-          type: '生日', name: '宝贝', year: '1997', date: '03-04',
+        //  type: '生日', name: '宝贝', year: '1997', date: '03-04',
         }
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 宝宝生日
-        { keyword: 'birthday1_day', date: '1993-07-16' },
+        { keyword: 'birthday_message', date: '1993-07-16' },
         // 宝贝生日
-        { keyword: 'birthday2_day', date: '1997-03-04' },
+        // { keyword: 'birthday2_day', date: '1997-03-04' },
         // 相见的日子
         { keyword: 'meet_day', date: '2022-07-16' },
         // 在一起的日子
@@ -141,7 +141,7 @@ const USER_CONFIG = {
     {
       name: '史蕾小宝宝',
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
-      useTemplateId: '2UW2BPkMDTb-R2d5DgOY_-VicqGnPNJbwXDCHfPE208',
+      useTemplateId: 'tu5_O2Mrz29qoQGVwy3ejw4x5jeczVcNR_nemEYQHzM',
       /** 每日一言 */
       // 每日一言的内容类型
       // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
