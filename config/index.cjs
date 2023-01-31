@@ -37,7 +37,7 @@ const USER_CONFIG = {
       ],
       customizedDateList: [
         // 天气
-        { keyword: 'weather' },
+        { keyword: 'weather',value:'' },
         // 最低气温
         { keyword: 'min_temperature' },
         // 最高气温
