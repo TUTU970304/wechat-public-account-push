@@ -65,43 +65,9 @@ const USER_CONFIG = {
 
   USERS: [
     {
-      // 想要发送的人的名字
       name: '史蕾小宝宝',
-      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
-      // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '6EvD8Y5DsVDni88S5GZKYbCuIw4tziGsqI5pwt3th0w',
-
-      weatherDateList: [
-        // 天气
-        { keyword: 'weather' },
-        // 最低气温
-        { keyword: 'min_temperature' },
-        // 最高气温
-        { keyword: 'max_temperature' },
-        // 风向
-        { keyword: 'wind_direction' },
-        // 风级
-        { keyword: 'wind_scale'},
-        // 湿度
-        { keyword: 'shidu'},
-        // PM2.5
-        { keyword: 'pm25'},
-        // 日出时间
-        { keyword: 'sunrise'},
-        // 日落时间
-        { keyword: 'sunset'},
-        // 空气质量指数
-        { keyword: 'aqi'},
-        // 预防感冒提醒
-        { keyword: 'ganmao'},
-        // 天气温馨语
-        { keyword: 'notice'}
-      ],
-    },
-    {
-      id: 'o--sv5sD9z6vHyniVseZokp9WAck',
-      useTemplateId: 'hjZOPp0naNR6fSjU86QUfx_Wph4dZzcmVtRJt9j0zz4',
+      useTemplateId: 'f5GmSkH3CEhixW0X7285itip0p6QAroNaKjXXMTFYLw',
       // 生日
       festivals:[
             {"type":"生日","name":"小笨蛋","date":"07-16","year":"1993"},
@@ -135,8 +101,43 @@ const USER_CONFIG = {
       ],
     },
     {
+      // 想要发送的人的名字
+      name: '史蕾小宝宝',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
-      useTemplateId: 'zNBRFpY69vbzsBBJ4XWjdhor6U7PQDyo1QtOczd5kCM',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: 'r4Ghut_XguicmAPf88zkzmCbZQZMsDUOi08w1XBILTI',
+
+      weatherDateList: [
+        // 天气
+        { keyword: 'weather' },
+        // 最低气温
+        { keyword: 'min_temperature' },
+        // 最高气温
+        { keyword: 'max_temperature' },
+        // 风向
+        { keyword: 'wind_direction' },
+        // 风级
+        { keyword: 'wind_scale'},
+        // 湿度
+        { keyword: 'shidu'},
+        // PM2.5
+        { keyword: 'pm25'},
+        // 日出时间
+        { keyword: 'sunrise'},
+        // 日落时间
+        { keyword: 'sunset'},
+        // 空气质量指数
+        { keyword: 'aqi'},
+        // 预防感冒提醒
+        { keyword: 'ganmao'},
+        // 天气温馨语
+        { keyword: 'notice'}
+      ],
+    },
+    {
+      id: 'o--sv5sD9z6vHyniVseZokp9WAck',
+      useTemplateId: '2OaejLi_7eqSYxkxjQ7IuKIlXIY__o9t-t7hDcFVTjc',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '07-16',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
