@@ -62,6 +62,21 @@ const USER_CONFIG = {
   
   PROVINCE: '浙江',
   CITY: '宁波',
+  
+  // 生日
+  festivals:[
+        {"type":"生日","name":"birthday_message","date":"07-16","year":"1993"},
+        {"type":"生日","name":"birthday2_message","date":"03-04","year":"1997"}
+  ],
+  // 我们在一起已经有xxxx天了的配置
+  customizedDateList: [
+    // 相见的日子
+    { keyword: 'meet_day', date: '2022-07-16' },
+    // 在一起的日子
+    { keyword: 'love_day', date: '2022-09-15' }
+    // 结婚纪念日
+    // { keyword: 'marry_day', date: '2022-09-09' }
+  ],
 
   USERS: [
     {
@@ -70,7 +85,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'tu541oB80v-sisBWplAzwF-zE9vPQrgujf7tAb_qWtw',
+      useTemplateId: '6EvD8Y5DsVDni88S5GZKYbCuIw4tziGsqI5pwt3th0w',
 
       weatherDateList: [
         // 天气
@@ -103,20 +118,7 @@ const USER_CONFIG = {
       name: '史蕾小宝宝',
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
       useTemplateId: '9bw14ekV4ct75VxT0uQt8gpUUz0un-XG9UhLY39Si4U',
-      // 生日
-      festivals:[
-        {"type":"生日","name":"birthday_message","date":"07-16","year":"1993"},
-        {"type":"生日","name":"birthday2_message","date":"03-04","year":"1997"}
-      ],
-      // 我们在一起已经有xxxx天了的配置
-      customizedDateList: [
-        // 相见的日子
-        { keyword: 'meet_day', date: '2022-07-16' },
-        // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-15' }
-        // 结婚纪念日
-        // { keyword: 'marry_day', date: '2022-09-09' }
-      ],
+         
       holidayttsDateList: [
         // 节假日
         { keyword: 'holidaytts' }
