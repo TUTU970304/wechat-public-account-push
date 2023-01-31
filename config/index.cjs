@@ -101,11 +101,11 @@ const USER_CONFIG = {
     },
     {
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
-      useTemplateId: 'BT8UDyjud71gg2TiLoAZVwoNHl8eQzD0n4sbd0djKFE',
+      useTemplateId: 'XsAEWLlrVn0wjnBCgnJWxTLwfYB4wHrvCirAArxMg0c',
       // 生日
       festivals:[
-            {"type":"生日","name":"宝宝","date":"07-16","year":"1993"},
-            {"type":"节日","name":"宝贝","date":"03-04","year":"1997"}
+            {"type":"生日","name":"小笨蛋","date":"07-16","year":"1993"},
+            {"type":"节日","name":"大宝贝 的生日","date":"03-04","year":"1997"}
             // {"type":"生日","name":"birthday2_message","date":"03-04","year":"1997"}
       ],
       // 我们在一起已经有xxxx天了的配置
@@ -121,14 +121,22 @@ const USER_CONFIG = {
         // 节假日
         { keyword: 'holidaytts' }
       ],
-    },
-    {
-      id: 'o--sv5sD9z6vHyniVseZokp9WAck',
-      useTemplateId: '-QQ1gCckD2TfvoQOdsUafUledqnMiQy3-p7wPf9GaEo',
       /** 每日一言 */
       // 每日一言的内容类型
       // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
       LITERARY_PREFERENCE: '',
+      dayDateList: [
+        // 每日一句
+        { keyword: 'note_ch' },
+        // 每日一言
+        { keyword: 'one_talk' },
+        // 土味情话(彩虹屁)
+        { keyword: 'earthy_love_words' }
+      ],
+    },
+    {
+      id: 'o--sv5sD9z6vHyniVseZokp9WAck',
+      useTemplateId: 'yxUeuYap-ixdaG685hNaSmOj_V27LwAAO6aGGcETiBw',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '07-16',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -144,14 +152,6 @@ const USER_CONFIG = {
         { keyword: 'wealth_horoscope' },
         // 健康运势
         { keyword: 'healthy_horoscope' }
-      ],
-      dayDateList: [
-        // 每日一句
-        { keyword: 'note_ch' },
-        // 每日一言
-        { keyword: 'one_talk' },
-        // 土味情话(彩虹屁)
-        { keyword: 'earthy_love_words' }
       ],
     },
   ],
