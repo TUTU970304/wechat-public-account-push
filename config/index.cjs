@@ -7,7 +7,7 @@
  */
 const USER_CONFIG = {
 
-  USE_PASSAGE: 'wechat-test',
+  // USE_PASSAGE: 'wechat-test',
   
   // 使用微信测试号：公众号APP_ID
   APP_ID: 'wx16194e329051008c',
@@ -58,7 +58,7 @@ const USER_CONFIG = {
   
   /** 是否给文字设置多彩颜色, 和emoji不兼容 */
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  IS_SHOW_COLOR: true,
+  IS_SHOW_COLOR: false,
   
   /** 每日一言 */
   // 每日一言的内容类型
@@ -91,7 +91,7 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2022-09-15' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        // { keyword: 'marry_day', date: '2022-09-09' },
       ],
       weatherDateList: [
         // 天气
