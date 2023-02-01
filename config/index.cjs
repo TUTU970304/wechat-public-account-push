@@ -67,7 +67,7 @@ const USER_CONFIG = {
     {
       name: '史蕾小宝宝',
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
-      useTemplateId: '4YH8Ut8xXZv_DO7WXc2Luq1J6KqcIiuXRIUzAYWt034',
+      useTemplateId: 'D84uaHMgrvrhNe37ChKviifFDWc-kuqmA7xdzJZgeZQ',
       // 生日
       festivals:[
         {"type":"生日","name":"小笨蛋","date":"07-16","year":"1993"},
@@ -168,7 +168,7 @@ const USER_CONFIG = {
     {
       name: '小蒋',
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
-      useTemplateId: 'h9cF-dtl9RuiS894LRb1hHOxEhO9zBLfaXYg-1ZYfoM',
+      useTemplateId: 'gp1UtPlbZhaujm0jJ-q36Cs8kkyWX-gNibLrtrgMqGU',
       // 生日
       festivals:[
         {"type":"生日","name":"小蒋","date":"09-14","year":"1996"},
