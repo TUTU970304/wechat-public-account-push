@@ -172,7 +172,7 @@ const USER_CONFIG = {
       // 生日
       festivals:[
         {"type":"生日","name":"小蒋","date":"09-14","year":"1996"},
-        {"type":"生日","name":"CC","date":"03-25","year":"1997"}       
+        {"type":"生日","name":"HC","date":"03-25","year":"1997"}       
         // {"type":"生日","name":"birthday2_message","date":"03-04","year":"1997"}
       ],
       // 我们在一起已经有xxxx天了的配置
