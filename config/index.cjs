@@ -67,7 +67,7 @@ const USER_CONFIG = {
     {
       name: '史蕾小宝宝',
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
-      useTemplateId: 'uIPUY6MKC7-OwuHfkvm62K9pxVYTGxRvRZuAvM1G2do',
+      useTemplateId: '4YH8Ut8xXZv_DO7WXc2Luq1J6KqcIiuXRIUzAYWt034',
       // 生日
       festivals:[
         {"type":"生日","name":"小笨蛋","date":"07-16","year":"1993"},
@@ -93,7 +93,7 @@ const USER_CONFIG = {
       LITERARY_PREFERENCE: '',
       dayDateList: [
         // 每日一句
-        { keyword: 'note_ch' },
+        // { keyword: 'note_ch' },
         // 每日一言
         { keyword: 'one_talk' },
         // 土味情话(彩虹屁)
@@ -106,7 +106,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o--sv5sD9z6vHyniVseZokp9WAck',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'r4Ghut_XguicmAPf88zkzmCbZQZMsDUOi08w1XBILTI',
+      useTemplateId: 'MoUEv_JgYag7eeJLEGg2npLvSASpmjNWMU7hp3H4mbQ',
 
       weatherDateList: [
         // 天气
