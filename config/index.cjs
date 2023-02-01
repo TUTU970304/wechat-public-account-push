@@ -66,7 +66,7 @@ const USER_CONFIG = {
   USERS: [
     {
       name: '史蕾小宝宝',
-      id: 'o--sv5sD9z6vHyniVseZokp9WAck',
+      id: 'o--sv5vFcGL8PECQkR_IrsxMvunQ',
       useTemplateId: 'D84uaHMgrvrhNe37ChKviifFDWc-kuqmA7xdzJZgeZQ',
       // 生日
       festivals:[
@@ -104,7 +104,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '史蕾小宝宝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o--sv5sD9z6vHyniVseZokp9WAck',
+      id: 'o--sv5vFcGL8PECQkR_IrsxMvunQ',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'MoUEv_JgYag7eeJLEGg2npLvSASpmjNWMU7hp3H4mbQ',
 
@@ -136,7 +136,7 @@ const USER_CONFIG = {
       ],
     },
     {
-      id: 'o--sv5sD9z6vHyniVseZokp9WAck',
+      id: 'o--sv5vFcGL8PECQkR_IrsxMvunQ',
       useTemplateId: 'qb-BwnRoWCB-T8z4B4x5zT9abgx_m2j-cVLvahVoELw',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '07-16',
@@ -152,7 +152,7 @@ const USER_CONFIG = {
       ],
     },
      {
-      id: 'o--sv5sD9z6vHyniVseZokp9WAck',
+      id: 'o--sv5vFcGL8PECQkR_IrsxMvunQ',
       useTemplateId: 'GxuhEKXZ3-Iu-u25fgbWGD9ubI38afsHXyjyTxfjduw',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '07-16',
