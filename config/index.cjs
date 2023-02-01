@@ -167,7 +167,7 @@ const USER_CONFIG = {
     },
     {
       name: '小蒋',
-      id: 'o--sv5jGXvwFqWDfLDSihzy46k38',
+      id: 'o--sv5sD9z6vHyniVseZokp9WAck',
       useTemplateId: 'gp1UtPlbZhaujm0jJ-q36Cs8kkyWX-gNibLrtrgMqGU',
       // 生日
       festivals:[
@@ -225,6 +225,22 @@ const USER_CONFIG = {
         { keyword: 'ganmao'},
         // 天气温馨语
         { keyword: 'notice'}
+      ],
+    },
+     {
+      id: 'o--sv5sD9z6vHyniVseZokp9WAck',
+      useTemplateId: 'hsPwMjRbP9_D1gVHlFS31vpXC9L4Kjp5exfN2_ccrDg',
+      // 新历生日, 仅用作获取星座运势, 格式必须
+      horoscopeDate: '09-14',
+      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
+      horoscopeDateType: '今日',
+      literaryDateList: [
+        // 综合运势
+        { keyword: 'comprehensive_horoscope' },
+        // 事业学业
+        // { keyword: 'career_horoscope' },
+        // 财富运势
+        // { keyword: 'wealth_horoscope' }
       ],
     },
   ],
