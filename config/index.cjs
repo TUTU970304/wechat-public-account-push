@@ -167,7 +167,7 @@ const USER_CONFIG = {
     },
     {
       name: '小蒋',
-      id: 'o--sv5sD9z6vHyniVseZokp9WAck',
+      id: 'o--sv5jGXvwFqWDfLDSihzy46k38',
       useTemplateId: 'gp1UtPlbZhaujm0jJ-q36Cs8kkyWX-gNibLrtrgMqGU',
       // 生日
       festivals:[
