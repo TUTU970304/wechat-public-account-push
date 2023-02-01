@@ -167,7 +167,7 @@ const USER_CONFIG = {
     },
     {
       name: '小蒋',
-      id: 'o--sv5sD9z6vHyniVseZokp9WAck',
+      id: 'o--sv5jGXvwFqWDfLDSihzy46k38',
       useTemplateId: 'gp1UtPlbZhaujm0jJ-q36Cs8kkyWX-gNibLrtrgMqGU',
       // 生日
       festivals:[
@@ -228,7 +228,7 @@ const USER_CONFIG = {
       ],
     },
      {
-      id: 'o--sv5sD9z6vHyniVseZokp9WAck',
+      id: 'o--sv5jGXvwFqWDfLDSihzy46k38',
       useTemplateId: 'hsPwMjRbP9_D1gVHlFS31vpXC9L4Kjp5exfN2_ccrDg',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '09-14',
