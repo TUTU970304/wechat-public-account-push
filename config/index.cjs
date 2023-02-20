@@ -253,8 +253,8 @@ const USER_CONFIG = {
       festivals:[
         {"type":"生日","name":"小笨蛋","date":"07-16","year":"1993"},
         {"type":"生日","name":"大宝贝","date":"03-04","year":"1997"},
-        {"type":"节日","name":"拍婚纱","date":"06-15","year":"2023"},
-        {"type":"节日","name":"结婚","date":"10-03","year":"2023"}
+        {"type":"节日","name":"我们拍婚纱","date":"06-15","year":"2023"},
+        {"type":"节日","name":"我们结婚","date":"10-03","year":"2023"}
         // {"type":"生日","name":"birthday2_message","date":"03-04","year":"1997"}
       ],
       // 我们在一起已经有xxxx天了的配置
